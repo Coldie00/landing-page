@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 13em;
+}
+
+.headercontainer .header-links {
+    display: flex;
+    gap: 1.5em;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.signupsection {
+    display: flex;
+    padding: 7em 0;
+    margin-left: -2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupsection .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signupsection .right {
+    width: 50%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+    background-color: gray;
+    margin-left: 3em;
+}
+
+button {
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
+.firstsection {
+    background-color: #1F2937
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
